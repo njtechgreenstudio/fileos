@@ -8,27 +8,27 @@
 
 这个文件系统的架构如下图. 和以往文件系统不同的是, 它缺少了组描述符(group descriptors)和保留的组描述符表占用块(Reserved GDT block).
 
- ![](D:/LA/Green%20Studio%20on%20Github/fileos/picture/architecture.png)
+ ![](/picture/architecture.png)
 
  本文件系统的树状结构: 
 
- ![](D:/LA/Green%20Studio%20on%20Github/fileos/picture/tree.png)
+ ![](/picture/tree.png)
 
 如果你想要编译运行这个项目, 你只需要在本项目根目录下, 终端输入 `make`
 
- ![](D:/LA/Green%20Studio%20on%20Github/fileos/picture/make.png)
+ ![](/picture/make.png)
 
  如果你只是想要运行这个文件系统, 你只需要在本项目根目录下, 终端输入 `make run`
 
- ![](D:/LA/Green%20Studio%20on%20Github/fileos/picture/run.png)
+ ![](/picture/run.png)
 
  如果你想要删除一个文件的话, 输入 `make clean`
 
- ![](D:/LA/Green%20Studio%20on%20Github/fileos/picture/clean.png)**
+ ![](/picture/clean.png)**
 
 如果你想要找回你在这个文件系统内的用户名和密码, 输入 `make accountback`
 
- ![](D:/LA/Green%20Studio%20on%20Github/fileos/picture/accountback.png)
+ ![](/picture/accountback.png)
 
 ## 文件系统功能一览
 
